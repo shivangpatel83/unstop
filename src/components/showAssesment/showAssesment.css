@@ -1,0 +1,89 @@
+.showAssesment{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    border: 1px solid rgba(143, 142, 142, .5);
+    border-radius: 10px;
+    padding: 15px;
+    row-gap: 20px;
+}
+
+.topSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.title{
+    margin: 10px 0px;
+}
+
+.calender{
+    gap: 10px;
+    display: flex;
+
+}
+
+.time{
+    display: flex;
+    gap: 5px;
+    border-left: 2px solid gray;
+    padding: 0px 10px;
+}
+
+.durationGrid{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+
+.leftGrid{
+    display: flex;
+    /* border: 2px solid yellow; */
+    gap: 10px;
+}
+.rightGrid{
+    display: flex;
+    gap :10px;
+    /* border: 2px solid black; */
+    /* position: relative; */
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: rgb(37, 92, 146);
+    border: 1px solid rgb(37, 92, 146);
+    border-radius: 15px;
+}
+
+.parent{
+    display: flex;
+    width: 50px;
+    position: relative;
+}
+.name{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    position: absolute;
+   
+}
+
+.name1{
+    left: 0px;
+}
+.name2{
+    left: 12px;
+    background-color: rgb(173, 40, 62);
+}
+.name3{
+    left: 24px;
+    background-color: blue;
+}
+
+
+
